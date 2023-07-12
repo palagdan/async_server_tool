@@ -1,6 +1,7 @@
 #pragma once
 #include <boost/asio.hpp>
 #include "chat_session.h"
+#include <mutex>
 
 using boost::asio::ip::tcp;
 class Server{
@@ -11,7 +12,6 @@ public:
     m_socket(io_context){
         acceptConnections();
     }
-
 
 
 private:
