@@ -3,7 +3,7 @@
 * [Project Description](#Project-Description)
 * [Features](#features)
 * [Prerequisites](#prerequisites)
-
+* [Future Enhancements](#future-enhancements)
 ## Project Description
 This is an asynchronous chat server implementation that
 allows multiple clients to connect and exchange messages 
@@ -28,3 +28,8 @@ protocol for communication between the clients and the server.
 a compatible C++ compiler.
 - Boost Library: The Boost.Asio library is used for 
 asynchronous I/O operations. Make sure to have the Boost library installed and configured.
+
+## Future Enhancements
+* [ ] Configuration via configuration file (Ini parser is done)
+* [ ] Chat rooms
+* [ ] User model
